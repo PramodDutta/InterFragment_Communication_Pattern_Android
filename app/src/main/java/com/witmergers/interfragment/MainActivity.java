@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.tjeannin.apprate.AppRate;
+
 
 public class MainActivity extends Activity implements  FragmentA.Communicator{
 
@@ -21,9 +23,20 @@ public class MainActivity extends Activity implements  FragmentA.Communicator{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Rate and Review Plugion!!
+
+        new AppRate(this)
+                .setShowIfAppHasCrashed(false)
+                .setMinDaysUntilPrompt(0)
+                .setMinLaunchesUntilPrompt(2)
+                .init();
+
+
         fragmentManager = getFragmentManager();
         fragmentA = (FragmentA)fragmentManager.findFragmentById(R.id.fragment_a);
         fragmentA.setCommunicator(this);
+
+
 
 
     }
