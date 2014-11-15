@@ -1,4 +1,8 @@
-InterFragment_Communication_Pattern_Android
+InterFragment Communication Pattern in Android example
+
+Fragment A communicates with Fragment B with Interface,
+* Lossly coupled code , OOP based!!
+* Level : Medium
 ===========================================
 
 This is simple example of the Inter-fragmnet Communication pattern in Android.
