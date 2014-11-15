@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InterFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="chapter">
+
+        <item>Chapert 1 : Hello World</item>
+        <item>Chapert 2 : Basic Todo App</item>
+        <item>Chapert 3 : Retrofit Lib</item>
+        <item>Chapert 4 : Inter Fragment Layout</item>
+        <item>Chapert 5 : Go Fragment Layout</item>
+        <item>Chapert 6 : Foo Layout</item>
+        <item>Chapert 7 : Relative Layout</item>
+        <item>Chapert 8 : Fragment Layout</item>
+
+
+
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>
+            This is  text for the chapter one , Hello world!!
+
+
+        </item>
+
+        <item>
+            This is  text for the chapter one , Basic Todo Ap!!
+
+
+        </item>
+
+        <item>
+            This is  text for the chapter one , Retrofit Li
+
+
+        </item>
+
+        <item>
+            This is  text for theqq chapter one , interfragmenthfjdsfw
+
+
+        </item>
+         <item>
+            This is  text for thedsadas chapter one , dasd
+
+
+        </item>
+         <item>
+            This is  text for the cdasdahapter one , interfrdasdasdagmenthfjdsfw
+
+
+        </item>
+         <item>
+            This is  text for the das one , intdsadsaerfragmenthfjdsfw
+
+
+        </item>
+
+
+
+    </string-array>
+
+</resources>
